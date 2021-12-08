@@ -62,6 +62,7 @@ class SceneTwo(Component):
     glutility = None
 
     lights = None
+    # Keep record of the original values
     lightMask = None
     materials = None
     ambientMask = None

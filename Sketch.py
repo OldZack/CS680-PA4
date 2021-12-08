@@ -433,6 +433,7 @@ class Sketch(CanvasBase):
                     self.scene.lights.remove(self.scene.lightMask[3])
                     self.scene.initialize()
 
+        # Using a, d and s to toggle ambient, diffuse and specular lights
         if chr(keycode) in "aA":
             if self.scene.toggleflag[0] == False:
                 for m in self.scene.materials:
